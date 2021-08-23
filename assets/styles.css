@@ -23,10 +23,15 @@ nav div img {
   gap: 30px;
   flex-wrap: wrap;
 }
+.nav-flex ul {
+  display: flex;
+  list-style: none;
+  margin: auto;
+  gap: 30px;
+}
 nav a {
   text-decoration: none;
   color: #8a8a8a;
-  margin: auto;
 }
 nav select {
   border: none;
@@ -43,7 +48,7 @@ nav button {
   background-image: url("./background_img.jpeg");
   background-size: cover;
 }
-.homepage h3 {
+.homepage h1 {
   font-size: 90px;
   color: white;
 }
@@ -69,7 +74,7 @@ nav button {
 .schedule {
   background-color: transparent;
   color: white;
-  border: solid white;
+  border: 2px solid white;
 }
 .learnmore {
   border-radius: 15px;
@@ -228,7 +233,7 @@ table th {
   padding: 10px 50px;
 }
 .Pokemon-info {
-  background-color: gray;
+  background-color: #424242;
   padding: 30px 100px;
   text-align: center;
   color: white;
@@ -308,7 +313,7 @@ table th {
   margin-bottom: 20px;
 }
 .pokemon-section {
-  background-color: gray;
+  background-color: #424242;
   padding: 30px 100px;
   text-align: center;
   color: white;
@@ -420,7 +425,7 @@ table th {
 }
 .footer-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .footer-flex a {
@@ -429,4 +434,7 @@ table th {
 .footer a {
   text-decoration: none;
   color: white;
+}
+.footer i {
+  margin: 10px;
 }
